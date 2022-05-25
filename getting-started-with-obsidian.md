@@ -19,6 +19,7 @@
 		- 日历，快速按日期创建查看每日文档
 		- 与Periodic Notes一起使用
 		- 你可能需要`Toggle right sidebar`才能看见
+		- 建议把所有日志放到一个文件夹里面
 	- #### Advanced Tables
 		- 更方便的markdown table
 		- 按tab自动编辑下一个cell
@@ -39,3 +40,4 @@
 	- Button
 	- DataView
 		- 数据汇总
+
