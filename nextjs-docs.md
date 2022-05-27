@@ -118,5 +118,3 @@
 		- `pages/404.tsx`
 	- Custom error page
 		- `pages/_error.tsx`
-		-
-		-

@@ -11,3 +11,21 @@
 				- 用户登录状态，登录信息
 			- [[SnackBarProvider]]
 			- SEO 配置
+	- `_document.tsx`
+		- 定义了全局每个页面的document markup
+	- `_home.tsx`
+		- Next.js自己生成的文件，没用。
+	- `_offline.tsx`
+		- offline page, see [next pwa documentation]([https://github.com/shadowwalker/next-pwa#offline-fallbacks](https://github.com/shadowwalker/next-pwa#offline-fallbacks))
+	- `comment-policy.tsx`
+	- `games.tsx`
+		- Games组件
+		- GameFilter组件
+			- 游戏筛选项
+			- 通过URL来更新页面获得筛选结果 (shallow routing, see [[nextjs-docs]])
+			- Price 和 When 的Filter没做？
+	- `index.tsx`
+		- 跳转到`/games`或者`/{locale}/games`
+		- 不太清楚这里parse Http Header是要干啥
+	- `login.tsx`
+		- 登录页面
