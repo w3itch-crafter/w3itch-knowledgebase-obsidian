@@ -8,7 +8,7 @@
 				- walletconnect.org 配置
 			- [[AuthenticationProvider]]
 				- definition from `components/pages/authentication.tsx`
-				- 用户登录状态，登录信息
+				- 用户登录状态，登录信息u
 			- [[SnackBarProvider]]
 			- SEO 配置
 	- `_document.tsx`
@@ -23,9 +23,9 @@
 		- GameFilter组件
 			- 游戏筛选项
 			- 通过URL来更新页面获得筛选结果 (shallow routing, see [[nextjs-docs]])
-			- Price 和 When 的Filter没做？
+			- Price 和 When 的Filter没做，href暂时指向`#`
 	- `index.tsx`
 		- 跳转到`/games`或者`/{locale}/games`
-		- 不太清楚这里parse Http Header是要干啥
+		- parse Http Header中的Host是为了支持`www.username.w3itch.io`式的连接
 	- `login.tsx`
 		- 登录页面
